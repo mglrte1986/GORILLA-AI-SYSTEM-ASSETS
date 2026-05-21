@@ -1,0 +1,42 @@
+/prompts
+/docs
+/assets
+/scripts
+# 🦍 Gorilla IA System Assets
+
+Repositorio oficial de activos del sistema Gorilla IA.  
+Aquí se almacenan los recursos visuales, prompts, documentación y scripts de automatización.
+
+## Estructura
+- `/prompts`: gemas y scripts de IA.
+- `/docs`: manuales y tutoriales.
+- `/assets`: imágenes, QR, logos.
+- `/scripts`: automatizaciones.
+
+## Objetivo
+Centralizar todos los proyectos del ecosistema Gorilla IA System y permitir su despliegue automatizado con GitHub Pages.
+name: Deploy Gorilla IA System
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v5.0.0
+        with:
+          target_branch: gh-pages
+          build_dir: ./docs
+[Ver activos del sistema](https://github.com/mglrte1986/GORILLA-AI-SYSTEM-ASSETS)
+Organiza los archivos y carpetas del repositorio "GORILLA-AI-SYSTEM-ASSETS" según la estructura:
+- /prompts
+- /docs
+- /assets
+- /scripts
+build_dir: ./docs
+
+Crea los archivos README.md y deploy.yml con las configuraciones necesarias para GitHub Pages y GitHub Actions. 
+Asegúrate de que cada actualización se publique automáticamente y que el sistema Gorilla IA mantenga sincronizados sus activos.
