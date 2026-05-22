@@ -12,5 +12,5 @@ Este repositorio contiene los activos del sistema Gorilla IA, incluyendo scripts
 
 ## Autor
 Miguel Rodarte de León (Agente 8686)
-rodamaster86 tecnologic
+
 <meta name="keywords" content="HectorElJefeGorilla, Gorilla IA System, Agente 8686, libertad económica, inteligencia artificial comunitaria">
